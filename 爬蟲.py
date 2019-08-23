@@ -3,7 +3,7 @@ import time
 from bs4 import BeautifulSoup
 import re
 
-print('PPT開爬')
+print('Disp開爬')
 
 UPurl = requests.get('https://disp.cc/b/Gossiping')
 soup = BeautifulSoup(UPurl.text,'html.parser')
